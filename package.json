@@ -1,9 +1,7 @@
 {
-  "name": "lib-example",
-  "version": "1.0.0",
-  "license": "MIT",
-  
-  "stackblitz": {
-    "startCommand": "npm start"
+  "installDependencies": false,
+  "startCommand": "my-custom-command",
+  "env": {
+    "NODE_ENV": "development"
   }
 }
